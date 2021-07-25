@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+
+.my-container {
+    @apply w-5/6 mx-auto p-2;
+}
+
+.search-item {
+    @apply bg-primary-150 p-4 rounded m-5 text-center;
+}
+
+.icon-rounded {
+    @apply w-10 h-10 rounded-full text-center leading-10;
+}
+
+.heading {
+    @apply text-4xl font-semibold text-gray-600;
+}
+
+.footer-list {
+    @apply inline-block px-10 py-3;
+}
+
+.footer-heading {
+    @apply text-xl px-10;
+}
+
+@tailwind utilities;
